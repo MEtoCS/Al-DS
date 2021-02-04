@@ -62,6 +62,7 @@ public class SortWith2Stacks {
 			in.offerFirst(buffer.pollFirst());
 		}
 	}
+	
 //	private void print(Deque<Integer> stack) {
 //		Integer res = stack.pollFirst();
 //		while(!stack.isEmpty()) {
