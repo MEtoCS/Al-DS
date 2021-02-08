@@ -1,6 +1,7 @@
 package DS_0204;
 
 public class LastKDigits {
+	
 //	Input  : a[] = {22, 31, 44, 27, 37, 43}
 //	Output : 56
 //	Input  : a[] = {24, 7, 144, 77, 29, 19}
