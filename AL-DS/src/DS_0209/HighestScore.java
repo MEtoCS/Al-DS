@@ -31,7 +31,7 @@ public class HighestScore {
 		for(int i: input) {
 			dq.offerFirst(i);
 		}
-//		int[] temp = new int[n];
+
 		int score = 0;
 
 		while(dq.size()>2) {
