@@ -3,6 +3,10 @@ package DS_0209;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
 public class HighestScore {
 	// input: n=2 h ={4,5} output: 4*5=20
@@ -14,6 +18,10 @@ public class HighestScore {
 		int n = 3;
 		int[] h = {1,2,3,4};
 		int res = HighestScore.highestScore(n, h);
+		StringBuilder sb = new StringBuilder();
+		Set<Integer> set = new HashSet<>();
+		Map<Integer, String> map = new HashMap<>();
+		map.values();
 		System.out.println(res);
 	}
 	
@@ -25,9 +33,7 @@ public class HighestScore {
 		}
 //		int[] temp = new int[n];
 		int score = 0;
-//		int size = dq.size();
-//		int first = 0;
-//		int last = 0;
+
 		while(dq.size()>2) {
 			
 				int first = dq.peekLast( ) != null? dq.pollLast( ):1;
