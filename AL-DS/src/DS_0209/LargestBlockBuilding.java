@@ -2,7 +2,7 @@ package DS_0209;
 
 public class LargestBlockBuilding {
 	public static void main(String[] args) {
-//		System.out.println(Integer);
+
 		int[] leftV = {4,2,3};
 		int[] frontV = {3,2,3,4};
 //		
