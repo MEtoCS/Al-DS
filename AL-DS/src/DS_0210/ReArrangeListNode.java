@@ -56,6 +56,8 @@ public class ReArrangeListNode {
 			
 			odd.next = even.next;
 			odd = even.next;
+			
+			//terminate condition for odd
 			if(odd.next == null) {
 				even.next = null;
 				odd.next = evenFirst;
