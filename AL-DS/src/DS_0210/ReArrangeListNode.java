@@ -52,11 +52,9 @@ public class ReArrangeListNode {
 			if(even ==null || even.next == null || odd.next!=null) {
 				odd.next  = evenFirst;
 				break;
-			}
-			
+			}			
 			odd.next = even.next;
-			odd = even.next;
-			
+			odd = even.next;			
 			//terminate condition for odd
 			if(odd.next == null) {
 				even.next = null;
