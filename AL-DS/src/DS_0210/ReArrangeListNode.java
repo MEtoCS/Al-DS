@@ -54,7 +54,8 @@ public class ReArrangeListNode {
 				break;
 			}			
 			odd.next = even.next;
-			odd = even.next;			
+			odd = even.next;	
+			
 			//terminate condition for odd
 			if(odd.next == null) {
 				even.next = null;
