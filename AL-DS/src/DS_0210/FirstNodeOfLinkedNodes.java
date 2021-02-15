@@ -16,8 +16,7 @@ public class FirstNodeOfLinkedNodes {
 		ListNode node2 = new ListNode(15);
 		ListNode node3 = new ListNode(30);
 		root2.next = node2;
-		node2.next = node3;
-		
+		node2.next = node3;	
 		// 3-6-9-15-30
 		// 10-15-30
 		//output: 15
