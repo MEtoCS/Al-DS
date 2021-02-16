@@ -6,6 +6,7 @@ import java.util.LinkedList;
 
 public class SortWith2Stacks {
 	public static void main(String[] args) {
+		
 		Deque<Integer> stack = new LinkedList<>();
 		SortWith2Stacks obj1 = new SortWith2Stacks();
 		stack.offerFirst(2);
