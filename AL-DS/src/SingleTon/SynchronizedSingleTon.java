@@ -20,11 +20,13 @@ public class SynchronizedSingleTon  implements Cloneable{
 	}
 	
 	public static SynchronizedSingleTon getInstance() {
+		
 		//first null check, improve the performance, 
 		//otherwise, it will lock all the thread to 
 		//create instance, even there is already one instance
 		if(instance==null) {  
 			synchronized(SynchronizedSingleTon.class){
+				
 				//it is possible to create multiple instance
 				//thread1 is null, create one, thread2 may create other one
 				if(instance==null) { 
