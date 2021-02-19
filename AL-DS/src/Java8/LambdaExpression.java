@@ -9,8 +9,7 @@ import java.util.stream.Collectors;
 public class LambdaExpression {
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("gagaag","aaa","abag","gagabjaljgla");
-	
-		
+			
 //		Collections.sort(list, new Comparator<String>(){
 //			@Override
 //			public int compare(String s1, String s2) {
