@@ -4,11 +4,12 @@ public class SynchronizedSingleTon  implements Cloneable{
 	private static volatile SynchronizedSingleTon instance ;
 	
 	private SynchronizedSingleTon() {
-		//to avoid reflection, constructor works only first time
+	//to avoid reflection, constructor works only first time
 		if(instance !=null) {
 			throw new RuntimeException("Object already created");
 		}
 	}
+	
 	//to avoid deserialization
 	protected Object readResolve() {
 		return instance;
