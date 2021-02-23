@@ -7,8 +7,7 @@ public class CheckPalindrome {
 		head.next = new ListNode(2);
 		head.next.next = new ListNode(1);
 		head.next.next.next = new ListNode(1);
-		
-//		CheckPalindrome.print(head);		
+				
 		boolean res = CheckPalindrome.isPalindrome(head);
 		System.out.println(res);
 	}
