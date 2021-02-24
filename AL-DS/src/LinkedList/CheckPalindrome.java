@@ -3,6 +3,7 @@ package LinkedList;
 public class CheckPalindrome {
 	public static void main(String[] args) {
 		//1-2-1-1
+		
 		ListNode head = new ListNode(1);
 		head.next = new ListNode(2);
 		head.next.next = new ListNode(1);
