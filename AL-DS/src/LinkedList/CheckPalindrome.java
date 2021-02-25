@@ -16,7 +16,8 @@ public class CheckPalindrome {
 		if(head == null || head.next == null) {
 			return true;
 		}
-		ListNode curr = head;		
+		ListNode curr = head;
+		
 //		CheckPalindrome.print(curr);
 		
 		ListNode reverseHead = reverse(head);
