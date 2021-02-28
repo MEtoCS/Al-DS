@@ -21,6 +21,7 @@ public class CheckPalindrome {
 //		CheckPalindrome.print(curr);
 		
 		ListNode reverseHead = reverse(head);
+		
 //		CheckPalindrome.print(reverseHead);
 		while(curr != null ) {
 			if(curr.val != reverseHead.val) {
