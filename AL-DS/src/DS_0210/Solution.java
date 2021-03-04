@@ -21,6 +21,7 @@ public class Solution {
 	}
 	
 	private List<List<String>> groupAnagrams(String[] strs){
+		
 		//corner case
 		if(strs == null || strs.length==0) {
 			return new ArrayList<>();
